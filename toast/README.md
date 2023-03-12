@@ -13,12 +13,14 @@ const DEFAULT_OPTIONS = {
 ```
 
 > #### How create toast
-> ```js
+   ```js
     new Toast({
         text: "Toast 1",
         position: "top-right",
         autoClose: 3000,
         canClose: false
-    })```
+    })
+    ```
 >
+
 
