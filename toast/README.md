@@ -11,7 +11,7 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
-
+<br/>
 > #### How create toast
    ```js
     new Toast({
