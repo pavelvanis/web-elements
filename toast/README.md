@@ -21,8 +21,9 @@ const DEFAULT_OPTIONS = {
 >```
  - - - 
  #### autoClose:  
-> The time after which the toast will close itself.>>1. You can set the value on `false`
-> -- this will set the toast to never disappear
+> The time after which the toast will close itself.
+>1. You can set the value on `false`
+> - this will set the toast to never disappear
 >```js 
 >autoClose: false
 >```
@@ -30,11 +31,11 @@ const DEFAULT_OPTIONS = {
 >```js
 >autoClose: 5000
 >```
- - - -
+- - -
 
  #### position: 
 > Position where you want place your toast.
-> -- You can combine several positions
+> - You can combine several positions
 > ```js 
 >position: "top-left"
 >```
@@ -94,7 +95,7 @@ const DEFAULT_OPTIONS = {
 >	toast.remove()
 >}, 4000)
 >```
-> -- This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
+> - This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
 
 
 
