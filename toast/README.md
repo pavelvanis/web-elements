@@ -11,7 +11,8 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
-<br/>
+
+
 > #### How create toast
    ```js
     new Toast({
@@ -21,6 +22,6 @@ const DEFAULT_OPTIONS = {
         canClose: false
     })
    ```
->
-
+> ##### Attributes
+> - position:
 
