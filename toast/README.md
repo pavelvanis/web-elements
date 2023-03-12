@@ -2,7 +2,7 @@
 # Toast
 This is library for toast
 
-## Default toast settings
+### Default toast settings
 ```js
 const DEFAULT_OPTIONS = {
     autoClose: 5000,
@@ -11,3 +11,14 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
+
+> #### How create toast
+> ```js
+    new Toast({
+        text: "Toast 1",
+        position: "top-right",
+        autoClose: 3000,
+        canClose: false
+    })```
+>
+
