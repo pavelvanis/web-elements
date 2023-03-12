@@ -16,25 +16,24 @@ const DEFAULT_OPTIONS = {
 
 
    
-> ### Attributes
->#### text: 
->> Text to be displayed in the toast
->>```js
->>text: "Some text in the toast"
->>```
-> - - - 
-> #### autoClose:  
->> The time after which the toast will close itself.
->>1. You can set the value on `false`
->> -- this will set the toast to never disappear
->>```js 
->>autoClose: false
->>```
->>2. You can set the time after which the toast disappears
->>```js
->>autoClose: 5000
->>```
-> - - -
+### Attributes
+#### text: 
+> Text to be displayed in the toast
+>```js
+>text: "Some text in the toast"
+>```
+ - - - 
+ #### autoClose:  
+> The time after which the toast will close itself.>>1. You can set the value on `false`
+> -- this will set the toast to never disappear
+>```js 
+>autoClose: false
+>```
+>2. You can set the time after which the toast disappears
+>```js
+>autoClose: 5000
+>```
+ - - -
 > #### position: 
 >> Position where you want place your toast.
 >> -- You can combine several positions
@@ -63,7 +62,6 @@ const DEFAULT_OPTIONS = {
 > - - -
 > #### onClose: 
 >> Method that is executed after the toast is closed
-
 &nbsp;
 >### Methods
 > #### update()
