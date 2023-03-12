@@ -20,7 +20,7 @@ const DEFAULT_OPTIONS = {
         autoClose: 3000,
         canClose: false
     })
-    ```
+   ```
 >
 
 
