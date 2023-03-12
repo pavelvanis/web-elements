@@ -1,5 +1,6 @@
 
 
+
 # Toast
 This is library for toast
 
@@ -12,10 +13,6 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
-
-
-
-   
 ### Attributes
 #### text: 
 > Text to be displayed in the toast
@@ -34,68 +31,70 @@ const DEFAULT_OPTIONS = {
 >autoClose: 5000
 >```
  - - -
-> #### position: 
->> Position where you want place your toast.
->> -- You can combine several positions
->> ```js 
->>position: "top-left"
->>```
->> ```js 
->>position: "top-right"
->>```
->> ```js 
->>position: "top-middle"
->>```
->>```js
->>position: "bottom-left"
->>```
->> ```js 
->>position: "bottom-right"
->>```
->> ```js 
->>position: "bottom-middle"
->>```
-> - - -
->#### canClose:
->> Determines whether the user can close the toast.
->> You can use `false` or `true`
-> - - -
-> #### onClose: 
->> Method that is executed after the toast is closed
+
+ #### position: 
+> Position where you want place your toast.
+> -- You can combine several positions
+> ```js 
+>position: "top-left"
+>```
+> ```js 
+>position: "top-right"
+>```
+> ```js 
+>position: "top-middle"
+>```
+>```js
+>position: "bottom-left"
+>```
+> ```js 
+>position: "bottom-right"
+>```
+> ```js 
+>position: "bottom-middle"
+>```
+ - - -
+#### canClose:
+> Determines whether the user can close the toast.
+> You can use `false` or `true`
+ - - -
+ #### onClose: 
+> Method that is executed after the toast is closed
+
 &nbsp;
->### Methods
-> #### update()
->> A method by which you can change the attributes of a toast
->>```js
->>const  toast =  new  Toast({
->>	text: "You cant do anything",
->>	autoClose: false,
->>	canClose: false
->>})
->>
->>setTimeout(() => {
->>	toast.update({
->>		text: "You can do something now",
->>		canClose: true,
->>		autoClose: 5000
->>	})
->>}, 4000)
->>```
->- - -
-> #### remove()
->> Removes toast.
->>```js
->>const  toast =  new  Toast({
->>	text: "Some text",
->>	autoClose: false,
->>	canClose: false
->>})
->>
->>setTimeout(() => {
->>	toast.remove()
->>}, 4000)
->>```
->> -- This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
+### Methods
+ #### update()
+> A method by which you can change the attributes of a toast
+>```js
+>const  toast =  new  Toast({
+>	text: "You cant do anything",
+>	autoClose: false,
+>	canClose: false
+>})
+>
+>setTimeout(() => {
+>	toast.update({
+>		text: "You can do something now",
+>		canClose: true,
+>		autoClose: 5000
+>	})
+>}, 4000)
+>```
+- - -
+ #### remove()
+> Removes toast.
+>```js
+>const  toast =  new  Toast({
+>	text: "Some text",
+>	autoClose: false,
+>	canClose: false
+>})
+>
+>setTimeout(() => {
+>	toast.remove()
+>}, 4000)
+>```
+> -- This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
 
 
 
