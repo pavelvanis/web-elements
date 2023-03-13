@@ -88,6 +88,7 @@ enter code here> ```js
 >	})
 >}, 4000)
 >```
+> - This code creates new `Toast` and `setTimeout`, where is `Toast` updated with new parameters.
  - - -
  #### remove()
 > Removes toast.
