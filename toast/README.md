@@ -15,6 +15,7 @@ const DEFAULT_OPTIONS = {
 ```
 - - -
 
+&nbsp;
 ### Create new Toast
 ```js
 new Toast({
@@ -27,13 +28,16 @@ new Toast({
 ```
 - - -
 
+&nbsp;
 ### Attributes
 #### text: 
 > Text to be displayed in the toast
 >```js
 >text: "Some text in the toast"
 >```
+
  - - - 
+ 
  #### autoClose:  
 > The time after which the toast will close itself.
 > 1. You can set the value on `false`
@@ -45,8 +49,9 @@ new Toast({
 >```js
 >autoClose: 5000
 >```
- - - -
 
+ - - -
+ 
  #### position: 
 > Position where you want place your toast.
 > - You can combine several positions
