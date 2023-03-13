@@ -122,5 +122,5 @@ new Toast({
 >	toast.remove()
 >}, 4000)
 >```
-> - This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
+> - This code will create new `Toast` and then method `setTimeout`, which removes `toast` after 4 seconds remove.
  
