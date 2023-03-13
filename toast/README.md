@@ -13,6 +13,7 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
+- - -
 
 ### Create new Toast
 ```js
@@ -23,7 +24,8 @@ new Toast({
     canClose: false,
     onClose: () => doSomething()
 })
-``
+```
+- - -
 
 ### Attributes
 #### text: 
