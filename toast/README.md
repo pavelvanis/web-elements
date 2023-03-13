@@ -13,6 +13,18 @@ const DEFAULT_OPTIONS = {
     onClose: () => { }
 }
 ```
+
+### Create new Toast
+```js
+new Toast({
+    text: "This is disappear after 4 seconds",
+    positon: "top-left",
+    autoClose: 4000,
+    canClose: false,
+    onClose: () => doSomething()
+})
+``
+
 ### Attributes
 #### text: 
 > Text to be displayed in the toast
