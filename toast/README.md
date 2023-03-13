@@ -61,7 +61,7 @@ const DEFAULT_OPTIONS = {
  - - -
  #### onClose: 
 > Method that is executed after the toast is closed
-enter code here> ```js
+>```js
 >new  Toast({
 >    text: "Some text",
 >    autoClose: false,
