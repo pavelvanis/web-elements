@@ -21,8 +21,9 @@ const DEFAULT_OPTIONS = {
 >```
  - - - 
  #### autoClose:  
-> The time after which the toast will close itself.>>1. You can set the value on `false`
-> -- this will set the toast to never disappear
+> The time after which the toast will close itself.
+> 1. You can set the value on `false`
+> - this will set the toast to never disappear
 >```js 
 >autoClose: false
 >```
