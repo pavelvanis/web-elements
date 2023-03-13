@@ -35,7 +35,7 @@ const DEFAULT_OPTIONS = {
 
  #### position: 
 > Position where you want place your toast.
-> -- You can combine several positions
+> - You can combine several positions
 > ```js 
 >position: "top-left"
 >```
@@ -102,5 +102,5 @@ enter code here> ```js
 >	toast.remove()
 >}, 4000)
 >```
-> -- This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
+> - - This code will create new `Toast` and then method `setTimeout` which removes `toast` after 4 seconds remove.
  
